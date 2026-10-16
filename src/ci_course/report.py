@@ -1,6 +1,5 @@
 """Writing summary reports to disk."""
 
-import os
 import shutil
 from pathlib import Path
 
