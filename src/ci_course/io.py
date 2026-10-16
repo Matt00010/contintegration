@@ -15,9 +15,7 @@ def sample_data_path():
     pathlib.Path
         The location of ``sample_measurements.csv``.
     """
-    base = Path(__file__).parent
-    path = Path(__file__).parent / "data" / "sample_measurements.csv"
-    return path.relative_to(base)
+    return Path(__file__).parent / "data" / "sample_measurements.csv"
 
 
 def load_measurements(path=None, errors=None):
