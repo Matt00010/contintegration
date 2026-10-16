@@ -53,3 +53,7 @@ testpaths = ["tests"]
 
 [tool.coverage.run]
 source = ["ci_course"]
+branch = true
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
