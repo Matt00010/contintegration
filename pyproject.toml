@@ -55,5 +55,3 @@ testpaths = ["tests"]
 source = ["ci_course"]
 branch = true
 
-[tool.ruff.lint.pydocstyle]
-convention = "numpy"
