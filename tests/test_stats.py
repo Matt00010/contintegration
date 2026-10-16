@@ -38,3 +38,4 @@ def test_output_for_all_nan():
     assert np.isnan(summary["sd"])
     assert np.isnan(summary["min"])
     assert np.isnan(summary["max"])
+    
