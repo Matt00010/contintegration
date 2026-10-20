@@ -24,5 +24,5 @@ jobs:
 
       - name: Check docstrings
         run: |
-          ruff check src/
+          ruff check --select D src/
           
